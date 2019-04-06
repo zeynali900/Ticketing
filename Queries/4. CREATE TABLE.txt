@@ -1,0 +1,7 @@
+CREATE TABLE `reply`(
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `userid` INT UNSIGNED NOT NULL,
+    `request_id` INT UNSIGNED NOT NULL,
+    `answer` TEXT NOT NULL,
+    PRIMARY KEY (id)
+    );

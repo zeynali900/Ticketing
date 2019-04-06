@@ -1,0 +1,7 @@
+﻿CREATE TABLE `support_request`(
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `userid` INT UNSIGNED NOT NULL,
+    `state` VARCHAR(40) NOT NULL DEFAULT 'در انتظار پاسخ',
+    `text` TEXT NOT NULL,
+    PRIMARY KEY (id)
+    );
