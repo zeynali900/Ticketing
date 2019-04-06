@@ -1,0 +1,14 @@
+USE coursereg;
+CREATE TABLE regdata (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , 
+    `fullname` VARCHAR(30) NOT NULL , 
+    `phonenum` VARCHAR(11) NOT NULL , 
+    `vorudi` INT(2) UNSIGNED NOT NULL , 
+    `major` VARCHAR(50) NOT NULL , 
+    `php` BOOLEAN NOT NULL DEFAULT FALSE , 
+    `js` BOOLEAN NOT NULL DEFAULT FALSE , 
+    `net` BOOLEAN NOT NULL DEFAULT FALSE , 
+    `mcsa` BOOLEAN NOT NULL DEFAULT FALSE , 
+    `fridays` BOOLEAN NOT NULL DEFAULT FALSE , 
+    PRIMARY KEY (`id`)
+    ) ENGINE = INNODB;
